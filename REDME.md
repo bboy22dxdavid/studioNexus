@@ -1,6 +1,6 @@
 # STUDIO  NEXUS
 
-![preview](./.assets/preview.png)
+![preview](/assets/preview.png)
 
 > Criando um card para studio NEXUS, simplificando a forma de copiar PIX
 
