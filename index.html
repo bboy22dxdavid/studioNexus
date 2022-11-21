@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--importando imagem do icone de pokebola-->
+    <link rel="icon" href="assets/icone.ico">
+     <!--importando o css da pagina-->
+     <link rel="stylesheet" href="css/style.css">
+    
+     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Studio Nexus</title>
+</head>
+<body>
+    <main>
+        <!--importando imagem-->
+        <img src="assets/logo.png" alt="logo" class="logo"> 
+
+        <!--titulo-->
+        <h1 class="titulo">
+            <samp class="nome">Studio Nexus</samp> 
+        </h1>
+        <!--testos-->
+        <div class="texto">
+            <div>
+               <samp class="texto-1"> Use o QR code do pix para pagar</samp> <br>
+               <samp class="texto-2"> Abra o app em que ira realizar a trans<br>ferência, scaneie a imagem ou cole<br>o codigo QR code</samp><br><br>
+               <samp class="texto-3">R$ 60,00</samp>
+            </div>
+        </div>
+        <!--QR code-->
+        <div class="qrcode">
+            <img src="assets/qrcode.png" alt="QRcode" class="qrcode"> 
+        </div>
+        <!--Button-->
+        <div class="buttons">
+            <button id="copy" class="button" onclick="copy()">Copiar o código do QRcode  <i class="icone fa fa-copy"></i></button>
+        </div>
+        <div class="texto-rodape">
+            <span id="text" class="texto-4">Wanderson de sousa paiva </span>
+           
+        </div>
+    </main>
+     <!--importando o script da pagina-->
+     <script  src="JS/script.js"></script>
+</body>
+</html>
