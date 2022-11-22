@@ -8,7 +8,7 @@
 
 Projeto construído para studio nexus.
 
-[🔗 Clique aqui para acessar]()
+[🔗 Clique aqui para acessar]( https://bboy22dxdavid.github.io/studioNexus/)
 
 
 ## 🛠 Tecnologias
